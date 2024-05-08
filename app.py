@@ -81,4 +81,4 @@ if sgw_op and button:
     elif preds.item() == 5:  # If the predicted class is 5
         st.write("Workflow: Split On Four Accounts")  # Workflow classification
         # Link to the prediction app
-        st.write("Link to predict CCP Message: [https://split6cv6zqcuioigt8xp.streamlit.app/](https://split6cv6zqcuioigt8xp.streamlit.app/)")
+        st.write("Link to predict CCP Messages: [https://split6cv6zqcuioigt8xp.streamlit.app/](https://split6cv6zqcuioigt8xp.streamlit.app/)")
