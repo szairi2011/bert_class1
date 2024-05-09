@@ -20,7 +20,7 @@ tokenizer, model = get_model()
 st.title('Sequence Classification')  
 
 # Text area to get the SGW operation input from the user
-sgw_op = st.text_area('SGW Operation')  
+sgw_op = st.text_area('The SGW Operation')  
 # Button to trigger the prediction process
 button = st.button("Predict")
 
