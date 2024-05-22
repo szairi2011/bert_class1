@@ -55,16 +55,19 @@ if sgw_op and button:
     # Display the result and provide appropriate links based on the predicted class
     if preds.item() == 0:  # If the predicted class is 0
         st.write("Workflow: Full Service")  # Workflow classification
+        st.write(f"Score: {_}")
         # Link to the specific prediction app
         st.write("Link to predict CCP Message: [https://fullservice-eys93zac7jrtbgdw9fs4w7.streamlit.app/](https://fullservice-eys93zac7jrtbgdw9fs4w7.streamlit.app/)")
     
     elif preds.item() == 1:  # If the predicted class is 1
         st.write("Workflow: Mark As Give Up")  # Workflow classification
+        st.write(f"Score: {_}")
         # Link to the prediction app
         st.write("Link to predict CCP Messages: [https://markasgup-mymgunzherqqedw3hkf5wq.streamlit.app/](https://markasgup-mymgunzherqqedw3hkf5wq.streamlit.app/)")
     
     elif preds.item() == 2:  # If the predicted class is 2
         st.write("Workflow: Give Up")  # Workflow classification
+        st.write(f"Score: {_}")
         # Link to the prediction app
         st.write("Link to predict CCP Message: [https://giveup-jn8r7oaepixsnulwzmwffu.streamlit.app/](https://giveup-jn8r7oaepixsnulwzmwffu.streamlit.app/)")
     
@@ -76,10 +79,12 @@ if sgw_op and button:
     
     elif preds.item() == 4:  # If the predicted class is 4
         st.write("Workflow: Split On Three Accounts")  # Workflow classification
+        st.write(f"Score: {_}")
         # Link to the prediction app
         st.write("Link to predict CCP Messages: [https://split6cv6zqcuioigt8xp.streamlit.app/](https://split6cv6zqcuioigt8xp.streamlit.app/)")
     
     elif preds.item() == 5:  # If the predicted class is 5
         st.write("Workflow: Split On Four Accounts")  # Workflow classification
+        st.write(f"Score: {_}")
         # Link to the prediction app
         st.write("Link to predict CCP Messages: [https://split6cv6zqcuioigt8xp.streamlit.app/](https://split6cv6zqcuioigt8xp.streamlit.app/)")
